@@ -1,0 +1,170 @@
+[
+    {
+        "Program with errors": "print a",
+        "Error-free program": "print(\"a\")",
+        "Error in English": "SyntaxError: Missing parentheses in call to 'print. Did you mean print(...)?",
+        "Error in Spanish": "Error de sintaxis : faltan par�ntesis en la llamada para 'imprimir. �Quiso decir print(...)?"
+    },
+    {
+        "Program with errors": "print(\"hola)",
+        "Error-free program": "print(\"hola\")",
+        "Error in English": "SyntaxError: unterminated string literal (detected at line 1)",
+        "Error in Spanish": "Error de sintaxis: literal de cadena no terminada (detectado en la l�nea 1)"
+    },
+    {
+        "Program with errors": "print \"hola\"",
+        "Error-free program": "print(\"hola\")",
+        "Error in English": "SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?",
+        "Error in Spanish": "Error de sintaxis : faltan par�ntesis en la llamada para 'imprimir. �Quiso decir print(...)?"
+    },
+    {
+        "Program with errors": "if true:\nprint('hola\")",
+        "Error-free program": "if True:\n  print('hola\")",
+        "Error in English": "IndentationError: expected an indented block after 'if' statement on line 1",
+        "Error in Spanish": "Error de indentacion: se esperaba un bloque con sangr�a despu�s de la declaraci�n 'if' en la l�nea 1"
+    },
+    {
+        "Program with errors": "print(que mas pues)",
+        "Error-free program": "print(\"que mas pues\")",
+        "Error in English": "SyntaxError: invalid syntax. Perhaps you forgot a comma?",
+        "Error in Spanish": "Error de sintaxis : sintaxis invalida. �Quiz�s olvidaste una coma?"
+    },
+    {
+        "Program with errors": "print( a + 5)",
+        "Error-free program": "a = 0\nprint(a + 5)",
+        "Error in English": "NameError: name 'a' is not defined",
+        "Error in Spanish": "Error de nombre: 'a' no esta definido"
+    },
+    {
+        "Program with errors": "a = b + 5",
+        "Error-free program": "b = 0\na = b + 5",
+        "Error in English": "NameError: name 'b' is not defined",
+        "Error in Spanish": "Error de nombre: 'b' no esta definido"
+    },
+    {
+        "Program with errors": "a = 5\nb = a + c 10",
+        "Error-free program": "a = 5\nc = 5\nb = a + c - 10",
+        "Error in English": "SyntaxError: invalid syntax.",
+        "Error in Spanish": "Error de sintaxis : sintaxis invalida."
+    },
+    {
+        "Program with errors": "a = 5\nb = a + c - 10",
+        "Error-free program": "a = 5\nc = 5\nb = a + c - 10",
+        "Error in English": "NameError: name 'c' is not defined",
+        "Error in Spanish": "Error de nombre: 'c' no esta definido"
+    },
+    {
+        "Program with errors": "if a > 0\n  a = a +1",
+        "Error-free program": "if a > 0:\n  a = a +1",
+        "Error in English": "SyntaxError: expected ':'",
+        "Error in Spanish": "Error de sintaxis: esperaba ':'"
+    },
+    {
+        "Program with errors": "",
+        "Error-free program": "",
+        "Error in English": "No code",
+        "Error in Spanish": "No hay codigo"
+    },
+    {
+        "Program with errors": "if b > 10: \nc = 20",
+        "Error-free program": "b = 0\nif b > 10: \n  c = 20",
+        "Error in English": "IndentationError: expected an indented block after 'if' statement on line 2",
+        "Error in Spanish": "Error de sangr�a: se esperaba un bloque con sangr�a despu�s de la declaraci�n 'if' en la l�nea 2"
+    },
+    {
+        "Program with errors": "if a = 10:\n  print(eso esta bien asi)",
+        "Error-free program": "if a == 10:\n  print(\"eso esta bien asi\")",
+        "Error in English": "SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "Error in Spanish": "Error de sintaxis: sintaxis invalida. �Quiz�s quisiste decir '==' o ':=' en lugar de '='?"
+    },
+    {
+        "Program with errors": "if b == true:\n  pritn(''todo esta\" + b�en)",
+        "Error-free program": "b = True\nif b == True:\n  print(''todo esta b�en\")",
+        "Error in English": "SyntaxError: unterminated string literal (detected at line 3)",
+        "Error in Spanish": "Error de sintaxis: literal de cadena sin terminar (detectado en la l�nea 3)"
+    },
+    {
+        "Program with errors": "if casa == false:\n  b = la casa esta bien\nelse\n  b = se robaron la casa",
+        "Error-free program": "casa = False\nif casa == False:\n  b = \"la casa esta bien\"\nelse:\n  b = \"se robaron la casa\"",
+        "Error in English": "SyntaxError: invalid syntax",
+        "Error in Spanish": "Error de sintaxis : sintaxis invalida."
+    },
+    {
+        "Program with errors": "for in rango(10)\n  print \"que mas pues\"",
+        "Error-free program": "for a in range(10):\n  print(\"que mas pues\")",
+        "Error in English": "SyntaxError: invalid syntax",
+        "Error in Spanish": "Error de sintaxis : sintaxis invalida."
+    },
+    {
+        "Program with errors": "for in rango(2; 10)\na = la suma esta mala\nprint a",
+        "Error-free program": "for num in range(2, 10):\n  a = \"la suma esta mala\"\n  print(a)",
+        "Error in English": "SyntaxError: invalid syntax",
+        "Error in Spanish": "Error de sintaxis : sintaxis invalida."
+    },
+    {
+        "Program with errors": "while a + 1\n  a = 0\n  print \"no pasa nada)",
+        "Error-free program": "a = 1\nwhile a + 1 == 2:\n  a = 0\n  print(\"no pasa nada\")",
+        "Error in English": "SyntaxError: unterminated string literal (detected at line 4)",
+        "Error in Spanish": "Error de sintaxis: literal de cadena sin terminar (detectado en la l�nea 4)"
+    },
+    {
+        "Program with errors": "vector = [2,3,1 3]",
+        "Error-free program": "vector = [2,3,1,3]",
+        "Error in English": "SyntaxError: invalid syntax. Perhaps you forgot a comma?",
+        "Error in Spanish": "Error de sintaxis: sintaxis invalida. �Quiz�s olvidaste una coma?"
+    },
+    {
+        "Program with errors": "lista = (2,3, 4,5]",
+        "Error-free program": "lista = [2, 3, 4, 5]",
+        "Error in English": "SyntaxError: closing parenthesis ']' does not match opening parenthesis '('",
+        "Error in Spanish": "SyntaxError: el par�ntesis de cierre ']' no coincide con el par�ntesis de apertura '('"
+    },
+    {
+        "Program with errors": "mezcla = [True, 10.5 \"abc\", [0,1,1]",
+        "Error-free program": "mezcla = [True, 10.5, \"abc\", [0,1,1]]",
+        "Error in English": "SyntaxError: invalid syntax. Perhaps you forgot a comma?",
+        "Error in Spanish": "Error de sintaxis: sintaxis invalida. �Quiz�s olvidaste una coma?"
+    },
+    {
+        "Program with errors": "otra lista = [casa, 12, 2, false, 0]",
+        "Error-free program": "otra_lista = [\"casa\", 12, 2, False, 0]",
+        "Error in English": "SyntaxError: invalid syntax",
+        "Error in Spanish": "Error de sintaxis : sintaxis invalida."
+    },
+    {
+        "Program with errors": "nombre = [hugo, 'paco\"; \"luis\", 12]",
+        "Error-free program": "nombre = [\"hugo\", \"paco\", \"luis\"]",
+        "Error in English": "SyntaxError: unterminated string literal (detected at line 2)",
+        "Error in Spanish": "SyntaxError: literal de cadena no terminada (detectado en la l�nea 2)"
+    },
+    {
+        "Program with errors": "tupla de colores=(\"Azul\", \"verde\",\"Rojo\"}",
+        "Error-free program": "tupla_de_colores=(\"Azul\",\"verde\",\"Rojo\")",
+        "Error in English": "SyntaxError: closing parenthesis '}' does not match opening parenthesis '('",
+        "Error in Spanish": "Error de sintaxis: el par�ntesis de cierre '}' no coincide con el par�ntesis de apertura '('"
+    },
+    {
+        "Program with errors": "mas_tuplas = (1,3,5,2,2)\nprint(mas_tuplas(5))",
+        "Error-free program": "mas_tuplas = (1,3,5,2,2)\nprint(mas_tuplas[4])",
+        "Error in English": "TypeError: 'tuple' object is not callable",
+        "Error in Spanish": "Error de tipo: el objeto 'tupla' no se puede invocar"
+    },
+    {
+        "Program with errors": "otraTupla = {2,4,5,7,3,5)\notraTupla[2] = 8",
+        "Error-free program": "otraTupla = (2,4,5,7,3,5)\notraTupla[2]",
+        "Error in English": "SyntaxError: closing parenthesis ')' does not match opening parenthesis '{'",
+        "Error in Spanish": "SyntaxError: el par�ntesis de cierre ')' no coincide con el par�ntesis de apertura '{'"
+    },
+    {
+        "Program with errors": "diccionario_edades = {\"Ana\"; 25, \"David\":18, \"Lucas\". 35, \"Ximena\" => 30, \"Ale\": 20}",
+        "Error-free program": "diccionario_edades = {\"Ana\": 25, \"David\":18, \"Lucas\": 35, \"Ximena\": 30, \"Ale\": 20}",
+        "Error in English": "SyntaxError: invalid syntax",
+        "Error in Spanish": "Error de sintaxis : sintaxis invalida."
+    },
+    {
+        "Program with errors": "animales = {\"leon: 20, tigre : 23}\nprint(animales[0])",
+        "Error-free program": "animales = {\"leon\": 20, \"tigre\": 23}\nprint(animales[\"leon\"])",
+        "Error in English": "SyntaxError: unterminated string literal (detected at line 2)",
+        "Error in Spanish": "SyntaxError: literal de cadena no terminada (detectado en la l�nea 2)"
+    }
+]
